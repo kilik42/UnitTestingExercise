@@ -22,10 +22,11 @@ namespace UnitTestingExercise
         // Keep track of which number is getting passed as minuend and subtrahend
 
         // Create a Multiply method that passes 2 integers
-        public void Multiply(int num1, int num2)
+        public int Multiply(int num1, int num2)
         {
-            throw NotImplementedException();
+           // throw NotImplementedException();
             Console.WriteLine(num1 * num2);
+            return num1 * num2;
         }
         // Create a Divide method that passes 2 integers
         public int Divide(int one, int two)

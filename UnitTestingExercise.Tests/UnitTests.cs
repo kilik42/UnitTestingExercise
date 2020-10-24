@@ -37,32 +37,33 @@ namespace UnitTestingExercise.Tests
             //Arrange
             var test3 = new UnitTestMethods();
             //Act
-            var actual3 = test3.Multiply(num1, num2)
-
+            var actual3 = test3.Multiply(num1, num2);
             //Assert
             Assert.Equal(expected, actual3);
         }
 
         [Theory]
-        [InlineData()]
+        [InlineData(6,3,2)]
         public void Divide(int num1, int num2, int expected)
         {
             //Arrange
+            var test4 = new UnitTestMethods();
 
             //Act
-
+            var actual4 = test4.Divide(num1, num2);
             //Assert
-
+            Assert.Equal(expected, actual4);
         }
 
         [Fact]
         public void YourMethodName()
         {
             //Arrange
-
+            var expected = "h";
             //Act
-
+            
             //Assert
+            Assert.Equal(expected, actual);
 
         }
 
